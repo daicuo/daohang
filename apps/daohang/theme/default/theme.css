@@ -1,0 +1,161 @@
+body{
+    padding-top: 0;
+    background: #f4f4f4;
+    font-size: 14px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+/*daohang theme*/
+a{
+    color: #000000;
+}
+a:hover{
+    color: #333333;
+}
+.bg-gradient{
+    background: linear-gradient(to bottom, #999999 0%,#ffffff 100%);
+    padding: 2rem 1rem 1rem 1rem;
+}
+.bg-muted{
+    background-color: #cfcfcf !important;
+}
+.dh-row{
+    margin-left: -5px!important;
+    margin-right: -5px!important;
+}
+.dh-badge{
+    min-width: 25px!important;
+}
+.dh-badge-pink{
+    background-color:#e83e8c;
+}
+.dh-text-pink{
+    color:#e83e8c;
+}
+.dh-btn{
+    min-width: 75px!important;
+}
+.dh-pill {
+    border-radius: 10rem!important;
+}
+.dh-circle {
+    border-radius: 50%!important;
+}
+.w-10{
+    width: 10%;
+}
+.img-detail{
+    width: 128px;
+    height: 128px;
+}
+.img-list{
+  width: 96px;
+  height: 96px;
+}
+.btn-sm-block{
+    width: 100%;
+}
+/*bootstrap default*/
+@media (min-width: 768px){
+    .btn-sm-block{
+        width: auto;
+    }
+}
+@media (min-width: 1400px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1140px;
+    }
+}
+/*p*/
+.lead{
+    font-size: 1.05rem;
+}
+/*模态框*/
+.modal-scrollbar-measure {
+    display: none;
+}
+/*导航栏*/
+.navbar-nav,.card-header{
+    font-size: 14px!important;
+}
+/*胶囊菜单*/
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #dc3545;
+}
+/*下拉菜单*/
+.dropdown-menu{
+	min-width: 5rem;
+    font-size: 14px;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+}
+/*
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover{
+	color: #fff;
+	text-decoration: none;
+	background-color: #090;
+	outline: 0;
+}
+.dropdown>.dropdown-menu>.active>a, .dropdown>.dropdown-menu>.active>a:focus, .dropdown>.dropdown-menu>.active>a:hover{
+	color: #fff;
+}*/
+/*分页*/
+.pager{
+	list-style: none;
+}
+.pagination{
+	font-size: 1.1rem;
+  margin-bottom: 0;
+}
+.pagination .page-item{
+	margin:auto 0.35rem;
+}
+.pagination .page-item .page-link{
+	color: #eee;
+	border-color: #333;
+	background-color:#333;
+	border-radius: .25rem;
+}
+.pagination .page-item .page-link:hover{
+	color: #000;
+	background-color: #dc3545;
+	border-color: #dc3545;
+}
+.pagination .page-item.disabled{
+}
+.pagination .page-item.disabled .page-link{
+}
+.pagination .page-item.active{
+}
+.pagination .page-item.active .page-link{
+	color: #fff;
+	background-color: #dc3545;
+	border-color: #dc3545;
+}
+.pagination .page-item:first-child .page-link {
+}
+.pagination .page-item:last-child .page-link {
+}
+
+/* bootstrap-input plus*/
+.bootstrap-tagsinput {
+    width: 100%;
+    /*padding: .5rem 1rem !important;
+    font-size: 1.25rem !important;
+    line-height: 1.5 !important;*/
+}
+.bootstrap-tagsinput input {
+  border: none;
+  box-shadow: none;
+  outline: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  width: auto !important;
+  max-width: inherit;
+}

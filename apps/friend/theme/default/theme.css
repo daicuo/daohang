@@ -1,0 +1,14 @@
+html {
+    height: 100%;
+}
+body {
+    padding-top: 66px;
+    font-weight: 400;
+    background: #f4f4f4;
+    color: #616161;
+    font-size: 14px;
+}
+/*模态框*/
+.modal-scrollbar-measure {
+    display: none;
+}

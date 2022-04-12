@@ -1,0 +1,48 @@
+body{
+    padding-top: 0;
+    background-color: #e9ecef;
+    font-size: 14px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+a{
+    color: #000000;
+}
+a:hover{
+    color: #333333;
+}
+/*模态框*/
+.modal-scrollbar-measure {
+    display: none;
+}
+/*导航栏*/
+.navbar-nav,.card-header{
+    font-size: 14px!important;
+}
+/*胶囊菜单*/
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #dc3545;
+}
+/*下拉菜单*/
+.dropdown-menu{
+	min-width: 5rem;
+    font-size: 14px;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+}
+/*自定义*/
+.py-10{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+@media (min-width: 768px){
+    .py-10{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}

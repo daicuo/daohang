@@ -1,0 +1,9 @@
+/*插件后台专用CSS*/
+.pre-scrollable {
+    max-height: 1024px !important;
+    overflow-y: auto;
+}
+.text-title strong{
+    color: #6f42c1;
+    font-weight: normal;
+}
